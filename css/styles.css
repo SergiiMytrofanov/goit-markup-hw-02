@@ -7,42 +7,44 @@
     --background-secondary: #E7E9FC;
 }
 
+/* WEBSTUDIO and Portfolio html styles fprmatting  */
 body {
-    /* main text parameters */
+    /* main text formatting */
     color: var(--t-color-primary);
     font-family: 'Roboto', normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.28;
     letter-spacing: 0.02em;
 }
 
-/* h1 text parametters */
-h1 {
+/* h1 text fotmatting */
+.header {
     font-weight: 700;
     font-size: 56px;
-    line-height: 60px;
+    line-height: 0.91;
     color: #FFFFFF;
 }
 
-/* h2 text parametters */
-h2 {
+/* h2 text fotmatting */
+.header-second {
     font-weight: 700;
     font-size: 36px;
-    line-height: 40px;
+    line-height: 0.95;
 }
 
-/* h3 text parametters */
-h3 {
+/* h3 text fotmatting */
+.header-third {
     font-weight: 500;
     font-size: 20px;
-    line-height: 24px;
+    line-height: 1.02;
 }
 
-/* logo WEBSTUDIO - all pages */
+/* logo WebStudio - in all html files */
 .logo {
+    font-family: 'Raleway', normal;
     font-weight: 800;
-    font-size: 18px;
+    font-size: 1.14;
     color: var(--logo-btn-2-ry);
     display: flex;
     align-items: center;
@@ -51,9 +53,20 @@ h3 {
     text-decoration: none;
 }
 
+/* logo head */
+.accent-head {
+    color: var(--t-color-primary);
+}
+
+/* ul/ol list style formatting */
 .list-style {
     list-style-type: none;
 }
+
+/* WebStudio HTML formatting */
+
+/* header  */
+
 
 .nav-link,
 .address-link {
@@ -67,16 +80,31 @@ h3 {
     color: var(--t-color-secondary);
 }
 
+.nav-link:hover,
+.nav-link:focus,
+.address-link:hover,
+.address-link:focus {
+    color: var(--btn-primary);
+}
+
+/* section 1  */
 .section-1 {
     background-color: var(--t-color-primary);
 }
 
 .button {
+    cursor: pointer;
     font-weight: 500;
     letter-spacing: 0.04em;
     color: #fff;
     background-color: var(--logo-btn-2-ry);
     border-radius: 4;
+}
+
+.button:hover,
+.button:focus {
+    color: #fff;
+    background-color: var(--btn-primary);
 }
 
 /* section 4 */
@@ -89,6 +117,28 @@ h3 {
     background-color: var(--t-color-primary);
 }
 
+/* logo footer */
+.accent-foot {
+    color: var(--background-primary);
+}
+
 .mission {
     color: var(--background-secondary);
+}
+
+/* Portfolio html */
+/* section 1 */
+.port-btn {
+    cursor: pointer;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    color: var(--logo-btn-2-ry);
+    background-color: var(--background-primary);
+    border-radius: 4;
+}
+
+.port-btn:hover,
+.port-btn:focus {
+    color: #fff;
+    background-color: var(--btn-primary);
 }
