@@ -1,0 +1,94 @@
+:root {
+    --t-color-primary: #2E2F42;
+    --t-color-secondary: #434455;
+    --btn-primary: #404BBF;
+    --logo-btn-2-ry: #4D5AE5;
+    --background-primary: #F4F4FD;
+    --background-secondary: #E7E9FC;
+}
+
+body {
+    /* main text parameters */
+    color: var(--t-color-primary);
+    font-family: 'Roboto', normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+}
+
+/* h1 text parametters */
+h1 {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 60px;
+    color: #FFFFFF;
+}
+
+/* h2 text parametters */
+h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+}
+
+/* h3 text parametters */
+h3 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+/* logo WEBSTUDIO - all pages */
+.logo {
+    font-weight: 800;
+    font-size: 18px;
+    color: var(--logo-btn-2-ry);
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.list-style {
+    list-style-type: none;
+}
+
+.nav-link,
+.address-link {
+    font-weight: 500;
+    text-decoration: none;
+    font-style: normal;
+    color: var(--t-color-primary);
+}
+
+.address-link {
+    color: var(--t-color-secondary);
+}
+
+.section-1 {
+    background-color: var(--t-color-primary);
+}
+
+.button {
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    color: #fff;
+    background-color: var(--logo-btn-2-ry);
+    border-radius: 4;
+}
+
+/* section 4 */
+.section-4 {
+    background-color: var(--background-primary);
+}
+
+/* footer */
+.footer {
+    background-color: var(--t-color-primary);
+}
+
+.mission {
+    color: var(--background-secondary);
+}
