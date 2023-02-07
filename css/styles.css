@@ -101,7 +101,6 @@ body {
 }
 
 .section-title {
-    font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
@@ -165,7 +164,6 @@ body {
 
 .filter-btn {
     cursor: pointer;
-    font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: var(--btn-accent);
