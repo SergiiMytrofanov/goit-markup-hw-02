@@ -44,6 +44,7 @@ body {
 .nav-link {
     font-weight: 500;
     line-height: 1.5;
+    letter-spacing: 0.02em;
     color: var(--primary-text-color);
     text-decoration: none;
 }
@@ -55,6 +56,7 @@ body {
 .address-link {
     font-style: normal;
     line-height: 1.5;
+    letter-spacing: 0.02em;
     color: var(--text-color-secondary);
     text-decoration: none;
 }
@@ -73,9 +75,9 @@ body {
 }
 
 .hero-title {
-    font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
+    letter-spacing: 0.02em;
     color: var(--text-white);
 }
 
@@ -98,21 +100,24 @@ body {
     list-style-type: none;
 }
 
-.h2 {
+.section-title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
+    letter-spacing: 0.02em;
     text-transform: capitalize;
 }
 
-.h3 {
+.section-subtitle {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+    letter-spacing: 0.02em;
 }
 
 .features-desc {
     line-height: 1.5;
+    letter-spacing: 0.02em;
     color: var(--text-color-secondary);
 }
 
@@ -132,6 +137,7 @@ body {
 
 .team-desc {
     line-height: 1.5;
+    letter-spacing: 0.02em;
     color: var(--text-color-secondary);
 }
 
@@ -147,6 +153,7 @@ body {
 
 .footer-text {
     line-height: 1.5;
+    letter-spacing: 0.02em;
     color: var(--background-secondary);
 }
 
@@ -160,6 +167,7 @@ body {
     cursor: pointer;
     font-weight: 500;
     line-height: 1.5;
+    letter-spacing: 0.04em;
     color: var(--btn-accent);
     background-color: var(--background-primary);
     border-radius: 4;
@@ -179,5 +187,6 @@ body {
 
 .filter-list-item {
     line-height: 1.5;
+    letter-spacing: 0.02em;
     color: var(--text-color-secondary);
 }
